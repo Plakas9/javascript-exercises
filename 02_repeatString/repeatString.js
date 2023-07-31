@@ -2,6 +2,8 @@ const repeatString = function(word,times) {
     const joinArray = [];
     if(times < 0 ){
         return 'ERROR'
+    }else if(word == ""){
+        return ""; 
     }else{
         for(let i =  0; i< times; i++){
             joinArray.push(word);
