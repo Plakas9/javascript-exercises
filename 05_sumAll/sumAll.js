@@ -6,8 +6,9 @@ const sumAll = function(number1,number2) {
         n2 = number1; // n1 will always be the smaller number
         n1=number2;
     }
+    console.log(n1,n2);
 
-    for(let i = number1; i<number2+1; i++){
+    for(let i = n1; i<n2+1; i++){
         total = total + i;
     }
     return total;
