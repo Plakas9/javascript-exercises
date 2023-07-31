@@ -1,4 +1,14 @@
-const reverseString = function() {
+const reverseString = function(word) {
+
+    let arrayLetter = [];
+    let wordLength = word.length;
+    for(let i = 0; i < word.length; i++){
+        arrayLetter.push(word.charAt(wordLength-1));
+        wordLength = wordLength-1;
+        
+    }
+    return arrayLetter.join("");
+    
 
 };
 
